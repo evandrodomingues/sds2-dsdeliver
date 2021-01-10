@@ -1,3 +1,4 @@
+
 package com.devsuperior.dsdeliver.dto;
 
 import java.io.Serializable;
@@ -108,3 +109,4 @@ public class OrderDTO implements Serializable {
 	}
 
 }
+

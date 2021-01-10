@@ -1,3 +1,4 @@
+
 package com.devsuperior.dsdeliver.dto;
 
 import java.io.Serializable;
@@ -74,3 +75,4 @@ public class ProductDTO implements Serializable {
 	}
 
 }
+
