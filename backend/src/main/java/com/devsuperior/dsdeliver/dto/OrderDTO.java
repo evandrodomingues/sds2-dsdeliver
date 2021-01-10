@@ -1,4 +1,3 @@
-
 package com.devsuperior.dsdeliver.dto;
 
 import java.io.Serializable;
