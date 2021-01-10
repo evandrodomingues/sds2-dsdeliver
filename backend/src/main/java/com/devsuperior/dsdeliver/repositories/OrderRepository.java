@@ -1,4 +1,3 @@
-
 package com.devsuperior.dsdeliver.repositories;
 
 import java.util.List;
@@ -14,4 +13,3 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
 	List<Order> findOrdersWithProducts();
 
 }
-
