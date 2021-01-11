@@ -1,4 +1,3 @@
-//import { logDOM } from '@testing-library/react';
 import './styles.css';
 
 import { ReactComponent as Logo } from './logo.svg';
