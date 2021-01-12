@@ -7,11 +7,19 @@
 # Sobre o projeto
 https://sds2-evandrodomingues.netlify.app
 
+<<<<<<< HEAD
 DS Delivery é uma aplicação full stack web e mobile construída durante a 2ª edição da **Semana DevSuperior** (#sds2),
 evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
 A aplicação consiste em um sistema de pedido e entrega de restaurante.
 Os dados da solicitação do pedido são coletados via web e posteriormente os pedidos são entregues e confirmados no app mobile.
+=======
+DS Delivery Ã© uma aplicaÃ§Ã£o full stack web e mobile construÃ­da durante a 2Âª ediÃ§Ã£o da **Semana DevSuperior** (#sds2),
+evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+
+A aplicaÃ§Ã£o consiste em um sistema de pedido e entrega de restaurante.
+Os dados da solicitaÃ§Ã£o do pedido sÃ£o coletados via web e posteriormente os pedidos sÃ£o entregues e confirmados no app mobile.
+>>>>>>> e10c95020900d49ead15eb3012e0273b8486c895
 
 ### Layout mobile
 ![Mobile 1](https://github.com/evandrodomingues/AssetsDSDeliver/blob/main/dsdelivery_mobile_001.jpg)
@@ -40,7 +48,11 @@ Os dados da solicitação do pedido são coletados via web e posteriormente os pedi
 - Expo
 ## API
 - Mapbox
+<<<<<<< HEAD
 ## Implantação em produção
+=======
+## ImplantaÃ§Ã£o em produÃ§Ã£o
+>>>>>>> e10c95020900d49ead15eb3012e0273b8486c895
 - Back end: Heroku
 - Front end web: Netlify
 - Banco de dados: Postgresql
@@ -48,10 +60,17 @@ Os dados da solicitação do pedido são coletados via web e posteriormente os pedi
 # Como executar o projeto
 
 ## Back end
+<<<<<<< HEAD
 Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
+=======
+PrÃ©-requisitos: Java 11
+
+```bash
+# clonar repositÃ³rio
+>>>>>>> e10c95020900d49ead15eb3012e0273b8486c895
 git clone https://github.com/evandrodomingues/sds2-dsdeliver.git
 
 # entrar na pasta do projeto back end
@@ -62,16 +81,27 @@ cd backend
 ```
 
 ## Front end web
+<<<<<<< HEAD
 Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
+=======
+PrÃ©-requisitos: npm / yarn
+
+```bash
+# clonar repositÃ³rio
+>>>>>>> e10c95020900d49ead15eb3012e0273b8486c895
 git clone https://github.com/evandrodomingues/sds2-dsdeliver.git
 
 # entrar na pasta do projeto front end web
 cd front-web
 
+<<<<<<< HEAD
 # instalar dependências
+=======
+# instalar dependÃªncias
+>>>>>>> e10c95020900d49ead15eb3012e0273b8486c895
 npm install
 
 # executar o projeto
@@ -79,16 +109,27 @@ npm start
 ```
 
 ## Front end mobile
+<<<<<<< HEAD
 Pré-requisitos: npm / expo
 
 ```bash
 # clonar repositório
+=======
+PrÃ©-requisitos: npm / expo
+
+```bash
+# clonar repositÃ³rio
+>>>>>>> e10c95020900d49ead15eb3012e0273b8486c895
 git clone https://github.com/evandrodomingues/sds2-dsdeliver.git
 
 # entrar na pasta do projeto front end web
 cd front-mobile
 
+<<<<<<< HEAD
 # instalar dependências
+=======
+# instalar dependÃªncias
+>>>>>>> e10c95020900d49ead15eb3012e0273b8486c895
 expo install @react-navigation/stack @react-native-community/masked-view react-native-screens react-native-gesture-handler @react-navigation/native expo-app-loading @expo-google-fonts/open-sans expo-font
 
 # executar o projeto
