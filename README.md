@@ -2,7 +2,7 @@
 ##Projeto Semana DevSuperior - DS Deliver 2
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/santosediego/dsdeliver-sds2/blob/main/LICENSE) 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ab15e182-74db-4bed-acb2-23907fc2ed26/deploy-status)](https://app.netlify.com/sites/sds2diegosantos/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab15e182-74db-4bed-acb2-23907fc2ed26/deploy-status)](https://app.netlify.com/sites/evandrodomingues/deploys)
 
 # Sobre o projeto
 https://sds2-evandrodomingues.netlify.app
