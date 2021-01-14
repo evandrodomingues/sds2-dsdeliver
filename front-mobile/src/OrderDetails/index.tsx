@@ -1,10 +1,14 @@
 import React from 'react';
 
 import { useNavigation } from '@react-navigation/native';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text, Alert } from 'react-native';
 
+import { RectButton } from 'react-native-gesture-handler';
 import { Order } from '../types';
+import { confirmDelivery } from '../api';
+
 import Header from '../Header';
+import OrderCard from '../OrderCard';
 
 type Props = {
   route: {
@@ -18,15 +22,35 @@ function OrderDetails({ route }: Props) {
   const { order } = route.params;
   const navigation = useNavigation();
 
-  const handlerOnPress = () => {
+  const handlerOnCancel = () => {
     navigation.navigate('Orders');
+  }
+
+  const handlerConfirmDelivery = () => { 
+    confirmDelivery(order.id)
+    .then(() => {
+      Alert.alert(`Pedido ${order.id} confirmado com sucesso!`);
+      navigation.navigate('Orders');
+    })
+    .catch(() => {
+      Alert.alert(`Houve um erro ao confirmar o pedido ${order.id}`);
+    })
   }
 
   return (
     <>
       <Header />
-      <View>
-        <Text>Detalhes do Pedido {order.id}</Text>
+      <View style={styles.container}>
+        <OrderCard order={order} />
+        <RectButton style={styles.button}>
+          <Text style={styles.buttonText}>INICIAR NAVEGAÇÃO</Text>
+        </RectButton>
+        <RectButton style={styles.button} onPress={handlerConfirmDelivery}>
+          <Text style={styles.buttonText}>CONFIRMAR ENTREGA</Text>
+        </RectButton>
+        <RectButton style={styles.button} onPress={handlerOnCancel}>
+          <Text style={styles.buttonText}>CANCELAR</Text>
+        </RectButton>
       </View>
 
     </>
