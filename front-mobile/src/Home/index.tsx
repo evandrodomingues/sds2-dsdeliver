@@ -1,16 +1,24 @@
+import { useNavigation } from '@react-navigation/native';
+
 import React from 'react';
+
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { useFonts, OpenSans_400Regular, OpenSans_700Bold } from '@expo-google-fonts/open-sans';
 import { RectButton } from 'react-native-gesture-handler';
 
+import Header from '../Header';
+
 function Home() {
 
-  const handlerOnPress = () => {
+  const navigation = useNavigation();
 
+  const handlerOnPress = () => {
+    navigation.navigate('Orders');
   }
 
   return (
     <>
+      <Header />
       <View style={styles.container}>
         <Image source={require('../assets/deliveryman.png')} />
         <Text style={styles.title}>

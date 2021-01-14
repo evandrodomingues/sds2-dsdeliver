@@ -1,23 +1,33 @@
+import { useNavigation } from '@react-navigation/native';
+
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableWithoutFeedback } from 'react-native';
 import { useFonts, OpenSans_400Regular, OpenSans_700Bold } from '@expo-google-fonts/open-sans';
 
 function Header() {
+  const navigation = useNavigation();
+
+  const handlerOnPress = () => {
+    navigation.navigate('Home');
+  }
+
   return (
-    <View style={styles.container}>
-      <Image source={require('../assets/logo.png')} />
-      <Text style={styles.text}>DS Delivery</Text>
-    </View>
+    <TouchableWithoutFeedback onPress={handlerOnPress}>
+      <View style={styles.container}>
+        <Image source={require('../assets/logo.png')} />
+        <Text style={styles.text}>DS Delivery</Text>
+      </View>
+    </TouchableWithoutFeedback>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-      backgroundColor: '#DA5C5C',
-      height: 90,
-      paddingTop: 45,
-      flexDirection: 'row',
-      justifyContent: 'center'
+    backgroundColor: '#DA5C5C',
+    height: 90,
+    paddingTop: 45,
+    flexDirection: 'row',
+    justifyContent: 'center'
   },
 
   text: {
