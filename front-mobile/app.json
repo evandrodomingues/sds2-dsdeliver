@@ -2,8 +2,6 @@
   "expo": {
     "name": "DS - Delivery",
     "slug": "front-mobile",
-    "privacy": "public",
-    "sdkVersion": "36.0.0",
     "plataforms": [
       "ios",
       "android"
@@ -32,9 +30,6 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#DA5C5C"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
