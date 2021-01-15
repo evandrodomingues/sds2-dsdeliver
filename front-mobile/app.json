@@ -2,10 +2,6 @@
   "expo": {
     "name": "DS - Delivery",
     "slug": "front-mobile",
-    "plataforms": [
-      "ios",
-      "android"
-    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,12 +17,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.devsuperior.dsdeliver"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "package": "com.devsuperior.dsdeliver",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#DA5C5C"
       }
