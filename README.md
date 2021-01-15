@@ -7,6 +7,10 @@
 # Sobre o projeto
 https://sds2-evandrodomingues.netlify.app
 
+#Link para download do APK
+- [Repositório 1](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40evandrodomingues/front-mobile-d73e956283a44073851f0b8e124d0e73-signed.apk)
+- [Repositório 2](https://drive.google.com/file/d/1ABpDLorxc9FeiqUv1s4lFxsABSFfp9vH/view?usp=sharing)
+
 
 DS Delivery é uma aplicação full stack web e mobile construída durante a 2ª edição da **Semana DevSuperior** (#sds2),
 evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
