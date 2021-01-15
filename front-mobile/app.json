@@ -1,14 +1,20 @@
 {
   "expo": {
-    "name": "front-mobile",
+    "name": "DS - Delivery",
     "slug": "front-mobile",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "plataforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#DA5C5C"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,12 +23,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devsuperior.dsdeliver"
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.devsuperior.dsdeliver",
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#DA5C5C"
       }
     },
     "web": {
